@@ -2,7 +2,7 @@
 
 A demo for how this could work, similar in spirit to the Google Analytics and OpenTelemetry ones
 
-Based in part off of [Eric Bailey's excellent overview of Operating System and Browser Accessibility Display Modes](https://www.a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/)
+Based in part off of [Eric Bailey's excellent overview of Operating System and Browser Accessibility Display Modes](https://www.a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/) and [Kilian Valkhof's excellent overview of media query detection](https://kilianvalkhof.com/2021/web/detecting-media-query-support-in-css-and-javascript/)
 
 ## Local Development
 
