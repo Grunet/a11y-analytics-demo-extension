@@ -2,6 +2,11 @@
     "manifest_version": 3,
     "name": "A11y Analytics Demo",
     "description": "A demonstration of how accessibility analytics data capture could work on any webpage or website. Emits data to the console only, nothing over the network.",
+    "icons": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
     "version": "0.0.1",
     "action": {
       "default_popup": "popup.html"

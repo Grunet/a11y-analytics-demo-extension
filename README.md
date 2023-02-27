@@ -4,6 +4,8 @@ A demo for how this could work, similar in spirit to the Google Analytics and Op
 
 Based in part off of [Eric Bailey's excellent overview of Operating System and Browser Accessibility Display Modes](https://www.a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/) and [Kilian Valkhof's excellent overview of media query detection](https://kilianvalkhof.com/2021/web/detecting-media-query-support-in-css-and-javascript/)
 
+The extension's icons come from https://accessibleicon.org/#use.
+
 ## Local Development
 
 [This Chrome Extension doc goes over how to sideload an extension into Chrome](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked) for testing.
