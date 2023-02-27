@@ -28,3 +28,7 @@ The `Package Artifact` Github Workflow will take care of creating the zip file t
 - There does not appear to be a way to sign the packaged zip in a way that the Chrome Web Store can validate downstream that it hasn't been tampered with post-creation, so no signing is done.
 - Automating the process of publishing the zip file is non-trivial, and the manual alternative is only as good as the person performing the process on top of the security of the desktop they're working on
 - A new, dedicated Google account should be used to manage the publishing process, with 2FA and a recovery email set up
+
+## Privacy Considerations
+
+See PRIVACY.md (this is also linked in the Chrome Web Store developer portal)
