@@ -1,0 +1,24 @@
+name: Package Artifact
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3
+
+      - name: Zip Source Files
+        working-directory: src/
+        run: |
+          zip extensionSource.zip *
+
+      - name: Upload Zip File
+        uses: actions/upload-artifact@65d862660abb392b8c4a3d1195a2108db131dd05 #v3
+        with:
+          name: extensionSourceZipFile
+          path: src/extensionSource.zip
