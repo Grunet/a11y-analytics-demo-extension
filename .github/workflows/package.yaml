@@ -15,10 +15,10 @@ jobs:
       - name: Zip Source Files
         working-directory: src/
         run: |
-          zip extensionSource.zip *
+          zip -r extensionSource.zip .
 
       - name: Upload Zip File
         uses: actions/upload-artifact@65d862660abb392b8c4a3d1195a2108db131dd05 #v3
         with:
-          name: extensionSourceZipFile
+          name: uploadArtifactWrapperZip # The packaged zip containing the extension's source will be inside this zip when downloaded
           path: src/extensionSource.zip
