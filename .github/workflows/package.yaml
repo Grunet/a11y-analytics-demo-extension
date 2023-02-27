@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3
 
       - name: Zip Source Files
         working-directory: src/
@@ -20,7 +20,7 @@ jobs:
           zip extensionSource.zip *
 
       - name: Upload Zip File
-        uses: actions/upload-artifact
+        uses: actions/upload-artifact@65d862660abb392b8c4a3d1195a2108db131dd05 #v3
         with:
           name: extensionSourceZipFile
           path: src/extensionSource.zip
